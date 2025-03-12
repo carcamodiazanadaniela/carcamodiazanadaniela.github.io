@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Quicksand:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, footer, main{
+    width: 100%;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+nav{
+    height: auto;
+    background-color: skyblue;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    width: 100px;
+    min-width: 120px;
+    list-style-type: none;
+    background-color: azure;
+    color:azure;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+    color: cadetblue;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: beige;
+}
+nav ul li a:hover{
+    background-color: darkcyan;
+     width: 95px;
+    font-size: 18px;
+}
+main{
+    height: auto;
+    background-color: cornsilk;
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: darkblue;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+section h2{
+    margin-bottom:30px; 
+    font-weight: 700px;   
+}
+h2, p{
+    margin-bottom: 30px;
+}
+h2{
+    color:aquamarine;
+}
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    color:aliceblue;
+}
+#tabla_1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, #tabla_3 th, #tabla_3 td{
+    padding left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#tabla_1 th, #tabla_2 th, #tabla_3 th{
+    background-color: cadetblue;
+    color: beige;
+    text-align: center;
+}
+#tabla_1 td{
+    background-color:darkcyan;
+    color: beige;
+    text-align: center;
+}
+#tabla_2{
+    width: 100%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border: 5px;*/
+    border: 5px solid cornflowerblue;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+#tabla_2 th, #tabla_2 td{
+     border: 3px solid cornflowerblue;
+    
+}
+#tabla_2 tbody tr:nth-child(even){
+    background-color: darkolivegreen;
+    color: beige;
+    text-align: center;
+}
+#tabla_2 tbody tr:nth-child(odd){
+    background-color: darkseagreen;
+    color: beige;
+    text-align: center;
+}
+#tabla_3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkseagreen;
+    border-collapse: collapse;
+}
+#tabla_3 th{
+    height: 60px;
+}
+#tabla_3 td{
+    height: 50px;
+    padding-left: 10px;
+}
+#tabla_3 th, #tabla_3 td{
+    border: 2px solid green;
+}
+#tabla_3 tr:hover{
+    background-color: yellow;
+    color:green;
+}
+hader h1{
+    font-family: "Chonburi", serif;
+    font-size: 72px;
+    letter-spacing: 20px;
+}
+h1, h6{
+    text-align: center;
+}
+h6{
+    font-size: 18px;
+}
+img{
+    width: 100%;
+}
+.imgenes_box{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen_flotante_izq{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.imagen_flotante_der{
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+}
+.imagenflotante_der{
+    width: 50%;
+  
+    float: right;
+    margin-left: auto;
+}
+.fondo{
+    background-image: url(../imagenes/universe-pictures-csvf6u834qr1bc0h.jpg);
+    background-size: cover;
+}
+.imagen_enlace{
+    width: 64px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imagen_index{
+    width: 64px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.section-filtros{
+    color: cornflowerblue0;
+    text-align: center;
+}
+.section-filtros{
+    width: 25%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: cadetblue;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    color:azure;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input[type=text],input[type=password],input[type=date],input[type=correo],input[type=tel],select{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: darkblue;
+    border: 3px solid cyan;
+}
+textarea[name=message]{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: darkblue;
+    border: 3px solid cyan;
+}
+input[type=submit]{
+    width: 20%;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: darkblue;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+}
+input[type=text]:focus,input[type=password]:focus, select:focus,input[type=date]:focus,input[type=correo]:focus,input[type=tel]:focus{
+  color: bisque;
+  background-color: darkseagreen;
+}
+textarea[name=message]:focus,{
+  color: bisque;
+  background-color: darkseagreen;
+}
+.redsocial{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
